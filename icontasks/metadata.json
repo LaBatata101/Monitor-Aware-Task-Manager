@@ -1,0 +1,27 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "hein@kde.org",
+                "Name": "Eike Hein"
+            },
+            {
+                "Name": "labatata",
+                "Email": "victorhgn2011@gmail.com"
+            }
+        ],
+        "Category": "Windows and Tasks",
+        "Description": "Task Manager that shows which monitor each window is on and moves windows between monitors",
+        "EnabledByDefault": false,
+        "Icon": "preferences-system-windows",
+        "License": "GPL-2.0+",
+        "Name": "Monitor-Aware Icons-only Task Manager",
+        "Id": "com.labatata.monitoricontasks",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.multitasking"
+    ],
+    "X-Plasma-RootPath": "com.labatata.monitortasks"
+}
